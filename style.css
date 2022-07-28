@@ -1,0 +1,164 @@
+
+@font-face {
+    font-family: 'titilium-web';
+    src: url(./fonts/titillium-web.woff) format('woff');
+}
+
+
+
+
+
+
+ul li {  list-style-type: none;}
+body,h1, h2, h3 ,p,li,a,button{font-family: "titilium-web";}
+ul li a{text-decoration: none;}
+.btn-green{ background-color: #3bb979; color: white; border: none;}
+.btn-green:hover{background-color: #169656;}
+
+
+
+@media (min-width: 1200px){
+.container { max-width: 90%;}
+}
+
+
+.header{box-shadow: 2px 0px 18px 7px lightgray; position: fixed; background-color: white; width: 100%; z-index: 100;}
+.header .nav-sec{padding: 18px 0px;}
+.header .nav-sec .row{align-items: center;}
+.header .nav-bar{ display: flex; justify-content:end; }
+.header .nav-sec .logo img{width:90%;}
+.header .nav-bar ul li{ padding: 0px 20px;} 
+.header .nav-bar ul li a{ color: #1f3042; text-decoration: none; font-size: 18px; font-weight: bold;}
+.header .nav-bar ul li a:hover{color: #169656;}
+.header .nav-btn{padding-left: 15px;}
+.header .nav-btn button{background-color: #1f3042 ; color: white; padding: 12px 50px; border: none; border-radius: 4px; font-size: 18px; font-weight: bold;}
+.header .nav-btn button:hover{background-color: #1d2a38;}
+.header .search-icon a{background-color: #edeff6; border-radius: 30px; padding: 12px 15px;}
+.header .search-icon a i{color:gray; font-size: 24px;}
+.header .search-icon {  padding: 0px 28px;  display: flex; align-items: center;}
+
+.header .nav-mob{display: none;}
+.header .nav-mob button{ font-size: 18px; color: white; background-color: #1d2a38; padding: 10px 20px; border: none;}
+.header .offcanvas{background-color: #1d2a38;}
+.header .nav-mob ul{padding-left: 20px;}
+.header .nav-mob ul li{padding-bottom: 15px;}
+.header .nav-mob ul li a{color:white; font-size: 22px; text-decoration: none; }
+.header .nav-mob ul li a:hover{color:#169656;}
+.header .offcanvas button{color: white !important;}
+.header .offcanvas-header{justify-content: end;}
+/* .header .navbar button { position: absolute; top: -43px; right: 7px;} */
+
+
+/* SM MENU  */
+
+@media (min-width: 768px) {
+
+    /* Switch to desktop layout
+    -----------------------------------------------
+    These transform the menu tree from
+    collapsible to desktop (navbar + dropdowns)
+    -----------------------------------------------*/
+    /* start... (it's not recommended editing these rules) */
+    .sm-menu ul{position:absolute;width:12em;}
+    .sm-menu li{float:left;}
+    .sm-menu.sm-rtl li{float:right;}
+    .sm-menu ul li,.sm-mytheme.sm-rtl ul li,.sm-mytheme.sm-vertical li{float:none;}
+    .sm-menu a{white-space:nowrap;}
+    .sm-menu ul a,.sm-mytheme.sm-vertical a{white-space:normal;}
+    .sm-menu .sm-nowrap > li > a,.sm-mytheme .sm-nowrap > li > :not(ul) a{white-space:nowrap;}
+    /* ...end */
+
+
+    /* Your rules to style the menu in desktop view here... */
+}
+
+.top-sec{padding-top: 245px;padding-bottom: 150px;}
+.top-sec .t-content h2{font-size: 24px; font-weight: bold; color: #b2b5c1; letter-spacing: 4px; margin-bottom: 20px;}
+.top-sec .t-content h1{font-size: 52px;font-weight: bold;  margin-bottom: 20px;}
+.top-sec .t-content h3{font-size: 24px; width: 80%; line-height: 31px;}
+.top-sec .t-img{display: flex; justify-content: end;}
+.top-sec .t-img img{width: 80%; object-fit: contain;}
+.top-sec button,.footer .c-info button{width: 250px; height: 50px; border-radius: 4px; font-size: 18px; font-weight: 600; margin-right: 20px; margin-bottom: 10px;}
+
+.top-sec .btn-outline{border: 2px solid #3bb979; color: black; background-color:white;}
+.top-sec .btn-outline:hover{background-color: #3bb979; color: white; border: none; transition: 0.5s;}
+.top-sec .t-btn{padding-top: 40px;}
+
+.t-sec{background-color: #edeff6;padding: 30px; text-align: center;}
+.t-sec .row{justify-content: space-between;}
+.t-sec img{padding: 10px 0px;}
+
+.s-sec{background-color: #1f3042;padding-top: 80px;padding-bottom:  180px;}
+.s-sec h1,.ct-sec h1{color: white; font-size: 40px; text-align: center; padding-bottom: 45px;}
+.s-sec .menu ul{padding: 0px;}
+.s-sec .menu ul li {padding: 12px 22px 12px 10px; margin-bottom: 10px; width: 72%;}
+.s-sec .menu ul li:first-child{background-color: #223447; border-left: 3px solid #3bb979; color: #3bb979; border-radius: 3px;}
+.s-sec .menu ul li a{color: white; font-size: 18px; text-decoration: none;font-weight: bold;}
+.s-sec .menu ul li a:hover{color: #3bb979 ;}
+.s-sec .menu button,.ct-sec .content button{color:white; background-color: #1f3042; border: 2px solid #3bb979;border-radius: 4px; padding: 10px 45px; font-size: 18px; font-weight: bold;}
+.s-sec .s-detail{background-color: #223447; border-radius: 8px;}
+.s-sec .s-detail .content{padding: 45px 50px;}
+.s-sec .s-detail h2{ color: white; font-size: 24px; padding-bottom: 20px;}
+.s-sec .s-detail p, .ct-sec p{color: white; font-size: 18px;}
+.s-sec .s-detail a{color: #3bb979; font-size: 18px; font-weight: bold;}
+.s-sec .s-detail img{object-fit: contain; padding-top: 30px;}
+.s-sec .arrow{margin-top: 30px; margin-right: 20px;}
+.s-sec .arrow button{color:white; border: 2px solid white; padding:10px 15px; background-color:#223447; font-size: 18px;margin-right: 10px;}
+
+.ind-sec{background-color: #edeff6; padding: 80px 0px;}
+.ind-sec h1{color: black; font-size: 40px; text-align: center; padding-bottom: 45px;}
+.ind-sec .card{border: none;  height: 100%; padding: 25px; box-shadow: 0px 0px 3px lightgrey;}
+.ind-sec .card:hover{border: 1px solid #3bb979;}
+.ind-sec .card h2{ font-size: 24px; padding-left: 15px;}
+.ind-sec .card p{font-size: 18px;padding-top: 20px;}
+.ind-sec .card a{color: #3bb979; font-size: 18px; font-weight: bold;}
+.ind-sec .card a:hover{color: #169656;}
+.ind-sec .col-lg-4{padding-bottom: 40px;}
+.ind-sec .card .heading{display: flex; align-items: center;}
+
+.ct-sec{background-color: #1f3042; padding: 80px 0px;}
+.ct-sec .content{background-color: #223447; padding: 90px!important;}
+.ct-sec .cl-img img{width: auto!important;}
+.ct-sec h2{color: white;}
+.ct-sec h3{font-size: 18px; color: white;}
+.ct-sec p{padding: 20px 0px;}
+.ct-sec .owl-dots{margin-top: 32px!important;}
+
+.footer{padding-top: 100px; padding-bottom:  50px;}
+.footer .c-info img{width: 210px; padding-bottom: 40px;}
+.footer .c-info p{margin-bottom: 0px;}
+.footer .c-info h2{font-size: 24px; font-weight: bold;margin-bottom: 40px;}
+.footer .c-info button{margin-bottom: 30px;}
+.footer .s-icon ul{display: flex;}
+.footer .s-icon ul li span i{color:#768292; font-size: 30px;}
+/* .footer .s-icon ul li:first-child{margin-left: 0px;} */
+.footer .s-icon ul li{margin-right: 20px;}
+.footer .s-icon ul{padding: 24px 0px;}
+
+.footer h3{font-size: 18px; font-weight: bold;padding-bottom: 10px;}
+.footer ul{padding: 0px;}
+.footer ul li{ padding: 12px 0px;}
+.footer ul li a{color: #768292; font-weight: bold; letter-spacing: 0.2px;}
+
+
+
+
+@media only screen and (max-width: 992px){
+
+    .header .nav-bar{display: none;}
+    .header .nav-mob{display: flex; justify-content: end;}
+    /* .header .nav-btn, .header .search-icon{display: none;} */
+    /* .header .nav-bar{display: block;} */
+    /* .header .nav-bar ul li{ padding: 5px 20px; text-align: center; border-bottom: 2px solid #1f3042;} */
+    .top-sec .t-content h1{font-size: 32px;}
+    .top-sec .t-btn button{width: 100%;}
+    .top-sec{ padding-top: 130px;}
+    .top-sec .t-img{justify-content: center;}
+    .top-sec .t-content h3{width: 100%;}
+    .s-sec .menu button{width: 100%; margin-bottom: 20px;}
+    .s-sec .s-detail .content{padding: 20px 0px;}
+    .s-sec{padding-bottom: 40px;}
+    .ct-sec .content{padding: 10px!important;}
+    .ct-sec img{width: 200px!important;}
+
+}
