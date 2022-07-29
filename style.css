@@ -12,7 +12,7 @@
 ul li {  list-style-type: none;}
 body,h1, h2, h3 ,p,li,a,button{font-family: "titilium-web";}
 ul li a{text-decoration: none;}
-.btn-green{ background-color: #3bb979; color: white; border: none;}
+.btn-green{ background-color: #3bb979; color: white; border: none; width: 250px; height: 50px; border-radius: 4px; font-size: 18px; font-weight: 600; margin-right: 20px; margin-bottom: 10px;}
 .btn-green:hover{background-color: #169656;}
 
 
@@ -21,8 +21,8 @@ ul li a{text-decoration: none;}
 .container { max-width: 90%;}
 }
 
-
-.header{box-shadow: 2px 0px 18px 7px lightgray; position: fixed; background-color: white; width: 100%; z-index: 100;}
+.shadow{box-shadow: 2px 0px 18px 7px lightgray;}
+.header{ position: fixed; background-color: white; width: 100%; z-index: 100;}
 .header .nav-sec{padding: 18px 0px;}
 .header .nav-sec .row{align-items: center;}
 .header .nav-bar{ display: flex; justify-content:end; }
@@ -78,7 +78,7 @@ ul li a{text-decoration: none;}
 .top-sec .t-content h3{font-size: 24px; width: 80%; line-height: 31px;}
 .top-sec .t-img{display: flex; justify-content: end;}
 .top-sec .t-img img{width: 80%; object-fit: contain;}
-.top-sec button,.footer .c-info button{width: 250px; height: 50px; border-radius: 4px; font-size: 18px; font-weight: 600; margin-right: 20px; margin-bottom: 10px;}
+.top-sec button {width: 250px; height: 50px; border-radius: 4px; font-size: 18px; font-weight: 600; margin-right: 20px; margin-bottom: 10px;}
 
 .top-sec .btn-outline{border: 2px solid #3bb979; color: black; background-color:white;}
 .top-sec .btn-outline:hover{background-color: #3bb979; color: white; border: none; transition: 0.5s;}
@@ -131,7 +131,6 @@ ul li a{text-decoration: none;}
 .footer .c-info button{margin-bottom: 30px;}
 .footer .s-icon ul{display: flex;}
 .footer .s-icon ul li span i{color:#768292; font-size: 30px;}
-/* .footer .s-icon ul li:first-child{margin-left: 0px;} */
 .footer .s-icon ul li{margin-right: 20px;}
 .footer .s-icon ul{padding: 24px 0px;}
 
@@ -139,6 +138,40 @@ ul li a{text-decoration: none;}
 .footer ul{padding: 0px;}
 .footer ul li{ padding: 12px 0px;}
 .footer ul li a{color: #768292; font-weight: bold; letter-spacing: 0.2px;}
+
+/* Internal Page */
+.sp-btw{justify-content: space-between; text-align: left;}
+
+.web-sec{background-color: #1f3042; height: 80vh; display: flex; justify-content: center; align-items: center;}
+.web-sec .content{text-align: center;}
+.web-sec .row{justify-content: center; padding-top: 70px;}
+.web-sec h1{font-size: 52px; color: white; font-weight: bold; padding-bottom: 50px;}
+
+.off-sec{padding: 50px 0px; text-align: center;}
+.off-sec h1{text-align: center;padding-bottom: 20px; font-weight: bold;}
+.off-sec .f-wrap{flex-wrap: wrap;}
+.off-sec li, .imp-sec li, .side-sec li{padding: 8px; font-size: 18px;}
+.off-sec p{font-size: 18px;}
+.off-sec button{margin-top: 80px;}
+.off-sec .content{justify-content:space-evenly; padding-top: 80px; align-items: center;}
+.off-sec .content img{width: 100%; padding-bottom:30px ;}
+.off-sec .content p{text-align: left;}
+
+.imp-sec{ background-color: #f4f5fa; padding:70px 0px ;}
+.imp-sec h1{ font-size: 32px; font-weight: bold;}
+.imp-sec p{font-size: 18px; padding: 20px 0px;}
+.imp-sec ul, .side-sec ul{ padding: 0px;}
+.imp-sec ul li, .side-sec ul li{list-style-type: disc; list-style-position: inside;}
+
+.side-sec{ padding:70px 0px; background-color: #1f3042; color: white;}
+.side-sec h1{text-align: center;padding-bottom: 20px; font-weight: bold;}
+.side-sec p{font-size: 18px;}
+
+.tech-sec{padding: 70px 0px; background-color: #f4f5fa;}
+.tech-sec img{padding-bottom: 30px;}
+.tech-sec .icon-tech{padding: 30px 0px;}
+.tech-sec h1{ text-align: center;padding-bottom: 20px; font-weight: bold;}
+
 
 
 
@@ -161,4 +194,11 @@ ul li a{text-decoration: none;}
     .ct-sec .content{padding: 10px!important;}
     .ct-sec img{width: 200px!important;}
 
+    /* Internal page */
+
+    .web-sec {height:100vh ;}
+    .tech-sec .icon-tech{display: flex; justify-content: center;}
+
 }
+
+
