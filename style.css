@@ -16,7 +16,6 @@ ul li a{text-decoration: none;}
 .btn-green:hover{background-color: #169656;}
 
 
-
 @media (min-width: 1200px){
 .container { max-width: 90%;}
 }
@@ -46,7 +45,11 @@ ul li a{text-decoration: none;}
 .header .nav-mob ul li a:hover{color:#169656;}
 .header .offcanvas button{color: white !important;}
 .header .offcanvas-header{justify-content: end;}
-/* .header .navbar button { position: absolute; top: -43px; right: 7px;} */
+
+.header .sm-menu .sub-menu{ background-color: white;}
+.header .sm-menu .sub-menu li{padding-top: 20px; border: none;}
+.header .sm-menu ul.sub-menu{box-shadow: 0px 0px 8px 0px lightgrey; margin-top: 29px!important; padding:10px 10px 20px 10px;}
+
 
 
 /* SM MENU  */
@@ -104,6 +107,13 @@ ul li a{text-decoration: none;}
 .s-sec .s-detail img{object-fit: contain; padding-top: 30px;}
 .s-sec .arrow{margin-top: 30px; margin-right: 20px;}
 .s-sec .arrow button{color:white; border: 2px solid white; padding:10px 15px; background-color:#223447; font-size: 18px;margin-right: 10px;}
+
+.s-sec .sub-menu {width: 900px!important; max-width: 900px!important; top: 60px!important; margin-left: 400px!important; }
+.s-sec .sub-menu ul li{ width: 100%;}
+.s-sec .sub-menu ul { display: block!important;}
+
+
+.active{display: block;}
 
 .ind-sec{background-color: #edeff6; padding: 80px 0px;}
 .ind-sec h1{color: black; font-size: 40px; text-align: center; padding-bottom: 45px;}
@@ -200,5 +210,11 @@ ul li a{text-decoration: none;}
     .tech-sec .icon-tech{display: flex; justify-content: center;}
 
 }
+
+
+
+
+
+.sm-menu ul.sub-menu{ margin-top: 0px; margin-left: 500px; top: 0px;}
 
 
