@@ -142,10 +142,10 @@ ul li a{text-decoration: none;}
 /* Internal Page */
 .sp-btw{justify-content: space-between; text-align: left;}
 
-.web-sec{background-color: #1f3042; height: 80vh; display: flex; justify-content: center; align-items: center;}
+.web-sec{background-color: #1f3042; height: 40vh; display: flex; justify-content: center; align-items: center;}
 .web-sec .content{text-align: center;}
-.web-sec .row{justify-content: center; padding-top: 70px;}
-.web-sec h1{font-size: 52px; color: white; font-weight: bold; padding-bottom: 50px;}
+.web-sec .row{justify-content: center; padding-top: 90px;}
+.web-sec h1{font-size: 50px; color: white; font-weight: bold; padding-bottom: 30px;}
 
 .off-sec{padding: 50px 0px; text-align: center;}
 .off-sec h1{text-align: center;padding-bottom: 20px; font-weight: bold;}
