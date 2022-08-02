@@ -166,34 +166,98 @@
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="menu">
-                        <ul>
-                            <li><a href="#">SAP S/4HANA</a></li>
-                            <li><a href="#">SAP and UK Compliance</a></li>
-                            <li><a href="#">SAP Support</a></li>
-                            <li><a href="#">SAP Technical Services</a></li>
-                            <li><a href="#">SAP User Experience</a></li>
-                            <li><a href="#">Cloud Services</a></li>
-                        </ul>
+                        <ul class="nav " role="tablist" id="myTab">
+                            <li class="" role="presentation"><a class="nav-link active" href="#" id="tab1" data-bs-toggle="tab" data-bs-target="#sap1" role="tab">SAP S/4HANA</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" id="tab2" data-bs-toggle="tab" data-bs-target="#sap2" role="tab">SAP and UK Compliance</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" id="tab3" data-bs-toggle="tab" data-bs-target="#sap3" role="tab">SAP Support</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" id="tab4" data-bs-toggle="tab" data-bs-target="#sap4" role="tab">SAP Technical Services</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" id="tab5" data-bs-toggle="tab" data-bs-target="#sap5" role="tab">SAP User Experience</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#" id="tab6" data-bs-toggle="tab" data-bs-target="#sap6" role="tab">Cloud Services</a></li>
                         <button>Dicover more services</button>
                     </div>
                 </div>
                 <div class="col-12 col-lg-8">
                     <div class="s-detail">
-                        <div class="content">
-                            <div class="row">
+                        <div id="myTabContent" class="tab-content content">
+                            <div class="tab-pane fade show active" id="sap1" role="tabpanel" aria-labelledby="sap-hana">
                                 <div class="col-12 col-lg-8">
-                                    <h2> SAP S/4HANA</h2>
-                                    <p> SAP HANA is the in-memory computing platform for SAP Business One that supercharges the application performance for speed and allows you to
-                                         analyze massive amounts of data in real time. SAP Business One powered by SAP HANA eliminates layers of complexities and unnecessary business 
-                                         costs found in legacy IT architecture so your business can run smarter, faster, and simpler.</p>
-                                    <a href="#">Learn more <span></span></a>
-                                    <div class="arrow">
-                                        <button><span><i class="fas fa-arrow-up"></i></span> </button>
-                                        <button><span><i class="fas fa-arrow-down"></i></span></button>
-                                    </div>
+                                <h2> SAP S/4HANA</h2>
+                                <p> SAP s/4HANA is the in-memory computing platform for SAP Business One that supercharges the application performance for speed and allows you to
+                                     analyze massive amounts of data in real time. SAP Business One powered by SAP HANA eliminates layers of complexities and unnecessary business 
+                                     costs found in legacy IT architecture so your business can run smarter, faster, and simpler.</p>
+                                <a href="#">Learn more <span></span></a>
                                 </div>
                                 <div class="col-12 col-lg-4">
                                     <img src="images/services.svg">
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="sap2" role="tabpanel" aria-labelledby="sap-uk">
+                                <div class="col-12 col-lg-8">
+
+                                    <h2> SAP and UK Compliance</h2>
+                                    <p>Our SAP Compliance experts have experience of making sure the systems are up to date with the UK legislation.
+                                        SAP Business One powered by SAP HANA eliminates layers of complexities and unnecessary business 
+                                        costs found in legacy IT architecture so your business can run smarter, faster, and simpler.</p>
+                                        <a href="#">Learn more <span></span></a>
+                                </div>
+                                <div class="col-12 col-lg-4">
+                                    <img src="images/services.svg">
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="sap3" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row">
+                                    <div class="col-12 col-lg-8">
+                                        <h2> SAP Support</h2>
+                                        <p> SAP HANA is the in-memory computing platform for SAP Business One that supercharges the application performance for speed and allows you to
+                                             analyze massive amounts of data in real time. SAP Business One powered by SAP HANA eliminates layers of complexities and unnecessary business 
+                                             costs found in legacy IT architecture so your business can run smarter, faster, and simpler.</p>
+                                        <a href="#">Learn more <span></span></a>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <img src="images/services.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="sap4" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row">
+                                    <div class="col-12 col-lg-8">
+                                        <h2> SAP Technical Service</h2>
+                                        <p> SAP HANA is the in-memory computing platform for SAP Business One that supercharges the application performance for speed and allows you to
+                                             analyze massive amounts of data in real time. SAP Business One powered by SAP HANA eliminates layers of complexities and unnecessary business 
+                                             costs found in legacy IT architecture so your business can run smarter, faster, and simpler.</p>
+                                        <a href="#">Learn more <span></span></a>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <img src="images/services.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="sap5" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row">
+                                    <div class="col-12 col-lg-8">
+                                        <h2> SAP User Expirience</h2>
+                                        <p> SAP HANA is the in-memory computing platform for SAP Business One that supercharges the application performance for speed and allows you to
+                                             analyze massive amounts of data in real time. SAP Business One powered by SAP HANA eliminates layers of complexities and unnecessary business 
+                                             costs found in legacy IT architecture so your business can run smarter, faster, and simpler.</p>
+                                        <a href="#">Learn more <span></span></a>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <img src="images/services.svg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="sap6" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row">
+                                    <div class="col-12 col-lg-8">
+                                        <h2> SAP Cloud Sevices</h2>
+                                        <p> SAP HANA is the in-memory computing platform for SAP Business One that supercharges the application performance for speed and allows you to
+                                             analyze massive amounts of data in real time. SAP Business One powered by SAP HANA eliminates layers of complexities and unnecessary business 
+                                             costs found in legacy IT architecture so your business can run smarter, faster, and simpler.</p>
+                                        <a href="#">Learn more <span></span></a>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <img src="images/services.svg">
+                                    </div>
                                 </div>
                             </div>
                         </div>
