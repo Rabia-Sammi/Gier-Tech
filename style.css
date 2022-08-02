@@ -204,15 +204,17 @@ ul li a{text-decoration: none;}
     /* .header .nav-bar ul li{ padding: 5px 20px; text-align: center; border-bottom: 2px solid #1f3042;} */
     .top-sec .t-content h1{font-size: 32px;}
     .top-sec .t-btn button{width: 100%;}
-    .top-sec{ padding-top: 130px;}
+    .top-sec{ padding-top: 130px; padding-bottom: 70px;}
     .top-sec .t-img{justify-content: center;}
     .top-sec .t-content h3{width: 100%;}
     .s-sec .menu button{width: 100%; margin-bottom: 20px;}
-    .s-sec .s-detail .content{padding: 20px 0px;}
+    .s-sec .menu ul li { width: 100%;    }
+    .s-sec .s-detail .content{padding: 20px 10px;}
     .s-sec{padding-bottom: 40px;}
+    .s-sec .tab-content > .active {display: block; }
     .ct-sec .content{padding: 10px!important;}
     .ct-sec img{width: 200px!important;}
-    .s-sec .tab-content > .active {display: block; }
+    
 
     /* Internal page */
 
